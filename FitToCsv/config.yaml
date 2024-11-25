@@ -1,0 +1,4 @@
+modules_to_export:
+  - record
+  - session
+  - activity
