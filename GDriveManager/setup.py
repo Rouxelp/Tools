@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
-with open(r"C:\Users\polro\OneDrive\Bureau\Elise\Tools\FitToCsv\requirements.txt") as f:
+with open(r"C:\Users\polro\OneDrive\Bureau\Elise\Tools\GDriveManager\requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="core",                 # Nom du package
+    name="gdrive_manager",                 # Nom du package
     version="0.1.0",                # Version initiale
     description="Transform ﬁtness tracker data to CSV.",
     author="Pol Rouxel",
@@ -14,7 +14,7 @@ setup(
     install_requires=requirements,
     entry_points={
         "console_scripts": [
-            "core=core.core:main",  # Commande CLI (optionnel)
+            "gdrive_manager=gdrive_manager.core:main",  # Commande CLI (optionnel)
         ],
     },
 )
