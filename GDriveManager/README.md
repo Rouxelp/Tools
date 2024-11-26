@@ -104,9 +104,6 @@ When you run the script for the first time, a local web server will help you com
 ## 🤝 Contributing
 We welcome all contributions! If you find a bug or have an idea for improvement, feel free to open an issue or submit a pull request.
 
-## 📜 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## ⚠️ Disclaimer
 This project is intended for educational and personal use. Always comply with Google API guidelines when using this code in production environments.
 
